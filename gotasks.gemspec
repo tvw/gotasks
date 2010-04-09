@@ -7,7 +7,8 @@ Gem::Specification.new do |gem|
   gem.summary = "Rake tasks for go projects."
   gem.description = "Rake tasks and rules for compiling go projects (http://golang.org)"
   
-  gem.files = Dir['lib/**/*', 'README*', 'LICENSE*']
+  gem.files = Dir['lib/**/*', 'README.rdoc']
+  gem.rdoc_options = ["--main", "README.rdoc"]
   
   gem.add_dependency 'rake', '~> 0.8.7'
   
